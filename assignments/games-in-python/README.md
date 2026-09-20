@@ -1,19 +1,47 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Hangman Game Challenge
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Practice Python fundamentals by building a classic Hangman game using strings, loops, conditionals, user input, and random selection.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Build the Core Hangman Game
 
-## ✅ Must Have's
+#### Description
+Create a game where a player guesses letters to reveal a hidden word before running out of attempts.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+
+- Randomly choose a word from a predefined list.
+- Display the hidden word using underscores, such as _ _ _ _ _.
+- Accept one letter at a time from the user.
+- Reveal correctly guessed letters in the correct positions.
+- Keep track of incorrect guesses and remaining attempts.
+- End the game when the player wins or runs out of chances.
+- Print a clear win or lose message at the end.
+
+### 🛠️ Improve the Player Experience
+
+#### Description
+Add feedback and game flow so the player can easily understand what is happening while they play.
+
+#### Requirements
+Completed program should:
+
+- Show the guessed letters so the player can track their progress.
+- Tell the player when a letter is already guessed or not in the word.
+- Update the display after each guess.
+- Use simple, readable output messages for each round.
+- Include a short example of gameplay in the program comments or console output.
+
+Example gameplay:
+
+```python
+Word: _ _ _ _ _
+Guess a letter: a
+Good guess! The letter 'a' is in the word.
+Word: _ a _ _ _
+```
