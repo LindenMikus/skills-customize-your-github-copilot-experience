@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "school-route-planner",
+      "title": "School Route Planner",
+      "description": "Use weighted graphs and Dijkstra's algorithm to find shortest walking routes through the school",
+      "path": "assignments/school-route-planner",
+      "dueDate": "2026-09-27",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
